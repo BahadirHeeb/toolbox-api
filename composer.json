@@ -1,0 +1,32 @@
+{
+  "name": "schoetex/toolbox-api",
+  "description": "API Basis für die Toolbox Module",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Bahadir Heeb",
+      "email": "b.heeb@schoetex.de"
+    }
+  ],
+  "require": {
+  },
+
+  "autoload": {
+      "psr-4": {
+          "schoetex\\toolboxApi\\": "src"
+      }
+  },
+  "config": {
+    "process-timeout": 1800,
+    "fxp-asset": {
+      "enabled": false
+    }
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://asset-packagist.org"
+    }
+  ]
+}
